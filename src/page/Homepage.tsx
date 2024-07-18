@@ -5,7 +5,8 @@ import RegistrationForm from "../Component/RegistrationPageComponent/Registratio
 function Homepage() {
   return (
     <>
-   <div><HomepageInterface/></div>
+   <div>
+    <HomepageInterface/></div>
    <RegistrationForm/>
     </>
   )

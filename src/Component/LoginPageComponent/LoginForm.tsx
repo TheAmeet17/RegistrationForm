@@ -1,5 +1,12 @@
+import { useNavigate } from "react-router-dom"
+
 
 export default function LoginForm() {
+  const navigate=useNavigate();
+const handleLogin=()=>{
+  navigate('/Mainpage');
+}
+
   return (
     <>
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -22,7 +29,7 @@ export default function LoginForm() {
               className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500"
             />
           </div>
-          <button
+          <button onClick={handleLogin}
             type="submit"
             className="w-full bg-indigo-500 text-white py-2 rounded hover:bg-indigo-600 transition duration-300"
           >

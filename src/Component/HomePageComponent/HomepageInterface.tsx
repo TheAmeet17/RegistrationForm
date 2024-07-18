@@ -16,6 +16,9 @@ const HomepageInterface = () => {
           <li className="text-white font-semibold hover:bg-blue-500 p-2 rounded">
             <Link to="/login">Login</Link>
           </li>
+          <li className="text-white font-semibold hover:bg-blue-500 p-2 rounded">
+            <Link to="/login">main</Link>
+          </li>
 
         </ul>
       </nav>

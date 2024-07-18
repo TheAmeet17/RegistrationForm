@@ -1,5 +1,5 @@
 // src/components/RegistrationForm.js
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const RegistrationForm = () => {
@@ -13,7 +13,7 @@ const RegistrationForm = () => {
   };
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-purple-600">
-      <div className="bg-white p-8 rounded shadow-lg max-w-sm w-full">
+      <div className="bg-white p-8 rounded shadow-lg max-w-sm w-full">Ameet
         <h2 className="text-2xl font-bold mb-6 text-center">
           Registration Form
         </h2>
@@ -42,7 +42,7 @@ const RegistrationForm = () => {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="password"
-              type="password"
+              type="text"
               placeholder="Enter your Address"
             />
           </div>
@@ -67,11 +67,7 @@ const RegistrationForm = () => {
           </div>
         )}
       </div>
-      {/* <Link to={"/Login"}>
-            <p className="text-center hover:underline font-small text-gray-500">
-              Login here
-            </p>
-          </Link> */}
+    
     </div>
   );
 };
